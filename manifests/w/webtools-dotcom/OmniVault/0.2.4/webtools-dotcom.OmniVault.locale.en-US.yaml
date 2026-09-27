@@ -1,0 +1,28 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: webtools-dotcom.OmniVault
+PackageVersion: 0.2.4
+PackageLocale: en-US
+Publisher: webtools-dotcom
+PublisherUrl: https://github.com/webtools-dotcom
+PublisherSupportUrl: https://github.com/webtools-dotcom/OmniVault/issues
+PackageName: OmniVault
+PackageUrl: https://github.com/webtools-dotcom/OmniVault
+License: MIT
+LicenseUrl: https://github.com/webtools-dotcom/OmniVault/blob/HEAD/LICENSE
+ShortDescription: Local-first vault for notes, links and screenshots that syncs between your own devices over Wi-Fi.
+Description: |-
+  OmniVault keeps notes, links, screenshots and files in nested folders. Every device holds a complete copy,
+  and devices on the same network find each other and sync peer to peer. There is no server and no account.
+  The Android app and any browser on the same network can connect to it.
+Tags:
+- local-first
+- notes
+- offline
+- p2p
+- privacy
+- sync
+ReleaseNotesUrl: https://github.com/webtools-dotcom/OmniVault/releases/tag/v0.2.4
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

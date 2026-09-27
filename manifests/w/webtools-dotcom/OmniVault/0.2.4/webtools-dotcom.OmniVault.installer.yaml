@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: webtools-dotcom.OmniVault
+PackageVersion: 0.2.4
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: omnivault.exe
+  PortableCommandAlias: omnivault
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/webtools-dotcom/OmniVault/releases/download/v0.2.4/omnivault-v0.2.4-windows-x64.zip
+  InstallerSha256: A3C5CBA150AE8417C121600A02D459EFE3E47C15DED5082DBBC598328D734FC7
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-09-27
